@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link href={"/"} className="text-xl md:text-4xl text-white font-semibold">
                 SIRIUS
             </Link>
-            <div className="mobile-menu block md:hiden">
+            <div className="mobile-menu block md:hidden">
                 {
                     navbarOpen ? (
                         <Button onClick={() => setNavbarOpen(false)} className="flex items-center px-1 py-1 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white">
