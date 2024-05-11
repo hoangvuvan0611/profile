@@ -7,7 +7,7 @@ import './HeroSection.css'
 
 const HeroSection = () => {
   return (
-    <section className="container mx-auto px-12 py-4">
+    <section className="container mx-auto px-12 py-4 mt-24">
       <div className="grid gird-cols-1 sm:grid-cols-12 ">
         <div className='col-span-7 place-self-center text-center sm:text-left'>
           <h1 className="text-white mb-4 text-2xl sm:text-2xl lg:text-3xl font-extrabold">
