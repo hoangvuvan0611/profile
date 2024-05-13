@@ -9,15 +9,15 @@ import MenuOverlay from './MenuOverlay';
 const navLinks = [
     {
         title: "Giới Thiệu",
-        path: "#", 
+        path: "#about", 
     },
     {
         title: "Dự Án",
-        path: "#", 
+        path: "#project", 
     },
     {
         title: "Liên Hệ",
-        path: "#", 
+        path: "#contact", 
     },
 ]
 

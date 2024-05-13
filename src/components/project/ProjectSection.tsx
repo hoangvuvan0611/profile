@@ -79,9 +79,9 @@ const ProjectSection = () => {
   };
 
   return (
-    <section>
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+    <section id="project" className='py-28'>
+      <h2 className="text-center text-4xl font-bold text-white mb-8 md:mb-12">
+        Dự án của tôi
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag

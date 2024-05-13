@@ -1,9 +1,10 @@
-
+"use client";
 import AboutSection from "@/components/about/AboutSection";
+import EmailSection from "@/components/email/EmailSection";
+import Footer from "@/components/footer/Footer";
 import HeroSection from "@/components/hero/HeroSection";
 import Navbar from "@/components/navbar/Navbar";
 import ProjectSection from "@/components/project/ProjectSection";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       <div className="container">
         <AboutSection />
         <ProjectSection />
+        <EmailSection />
+        <Footer/>
       </div>
     </main>
   );
