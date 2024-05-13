@@ -1,18 +1,18 @@
 "use client";
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { FormEvent, useState } from 'react';
 import { FaFacebookSquare, FaGithub, FaLinkedinIn, FaStackOverflow, FaTwitter } from 'react-icons/fa';
 
 const EmailSection = () => {
 
     const [emailSubmitted, setEmailSubmitted] = useState(false);    
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: FormEvent) => {
         e.preventDefault();
         const data = {
-            email: e.target.email.value,
-            subject: e.target.subject.value,
-            message: e.target.message.value,
+            // email: e.target.email.value,
+            // subject: e.target.subject.value,
+            // message: e.target.message.value,
         };
         const JSONdata = JSON.stringify(data);
         const endpoint = "/api/send";
