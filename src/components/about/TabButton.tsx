@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 const variants = {
   default: { width: 0 },
@@ -6,8 +6,9 @@ const variants = {
 };
 
 
-const TabButton = ({ active, selectTab, children }) => {
+const TabButton = ({ active, selectTab, children } : { active: boolean; selectTab: () => void; children: ReactNode }) => {
   const buttonClasses = active ? "text-white  border-b border-red-500" : "text-[#ADB7BE]";
+  
   return (
     <button onClick={selectTab}>
       <p className={`mr-3 font-semibold hover:text-white ${buttonClasses}`}>
