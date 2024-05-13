@@ -47,7 +47,7 @@ const HeroSection = () => {
               alt="Hoang image"
               width={400}
               height={400}
-              className="hero absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/4"
+              className="hero absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/5"
             />
           </div>
         </div>
