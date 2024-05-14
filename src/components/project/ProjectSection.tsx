@@ -10,7 +10,7 @@ const projectsData = [
       id: 1,
       title: "UniSchedule App",
       description: "Ứng dụng di động tra cứu thông tin sinh viên",
-      image: `${prefix}/images/flutter-project.png`,
+      image: (`${prefix}/images/flutter-project.png`),
       tag: ["All", "Mobile"],
       gitUrl: "/",
       previewUrl: "/",
