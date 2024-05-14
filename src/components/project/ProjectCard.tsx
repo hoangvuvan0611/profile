@@ -1,8 +1,16 @@
-import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/solid'
-import Link from 'next/link'
-import React from 'react'
+import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/solid';
+import Link from 'next/link';
+import React from 'react';
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+interface ProjectCardProps {
+  imgUrl: string;
+  title: string;
+  description: string;
+  gitUrl: string;
+  previewUrl: string;
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
     <div>
       <div
