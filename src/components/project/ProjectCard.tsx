@@ -12,10 +12,6 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
-  useEffect(() => {
-    // Code bạn muốn thực thi sau mỗi lần render hoặc khi component được gắn kết
-    alert(imgUrl);
-  }, []); 
   return (
     <div>
       <div
