@@ -1,6 +1,6 @@
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
 
 
 interface ProjectCardProps {
@@ -12,11 +12,15 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+  useEffect(() => {
+    // Code bạn muốn thực thi sau mỗi lần render hoặc khi component được gắn kết
+    alert(imgUrl);
+  }, []); 
   return (
     <div>
       <div
         className="h-52 md:h-76 md:w-25 rounded-t-xl relative group"
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
+        style={{ background: `url(${imgUrl})` , backgroundSize: "cover" }}
       >
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
           <Link
