@@ -82,7 +82,7 @@ const EmailSection = () => {
                 Email gửi thành công!
             </p>
             ) : (
-            <form className="flex flex-col" onSubmit={handleSubmit}>
+            <form className="flex flex-col">
                 <div className="mb-6">
                 <label
                     htmlFor="email"
