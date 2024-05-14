@@ -43,7 +43,7 @@ const HeroSection = () => {
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full w-[200px] h-[200px] sm:w-300 sm:w-300 lg:w-[400px] lg:h-[400px] relative">
             <Image 
-              src="/images/hero-img.svg"
+              src="/images/header-img.png"
               alt="Hoang image"
               width={400}
               height={400}
