@@ -3,7 +3,9 @@ import React from 'react';
 import Image from 'next/image';
 import { Button } from '../ui/button';
 import { TypeAnimation } from 'react-type-animation';
-import './HeroSection.css'
+import './HeroSection.css';
+
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const HeroSection = () => {
   return (
@@ -31,7 +33,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-sm mb-6">
-            Đây là trang web cá nhân của tôi, nơi tôi chia sẻ các thông tin cá nhân, tài liệu. 
+            Đây là trang web cá nhân của tôi, nơi tôi chia sẻ các thông tin cá nhân, tài liệu (bản thử nghiệm)
           </p>
           <Button className="px-6 py-3 w-full sm:w-fit rounded-xl mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-red-500 hover:bg-slate-200 text-white">
             Hẹn tôi
@@ -43,7 +45,7 @@ const HeroSection = () => {
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full w-[200px] h-[200px] sm:w-300 sm:w-300 lg:w-[400px] lg:h-[400px] relative">
             <Image 
-              src="/images/header-img.png"
+              src={`${prefix}/images/hero-img.svg`}
               alt="Hoang image"
               width={400}
               height={400}
