@@ -3,6 +3,8 @@ import Image from 'next/image';
 import React, { useState, useTransition } from 'react';
 import TabButton from './TabButton';
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const TAB_DATA = [
   {
     title: "Skills",
@@ -56,7 +58,7 @@ const AboutSection = () => {
     <section className="text-white mx-auto px-2 py-24 mb-24" id="about">
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 sm:px-16'>
           <Image 
-              src="/images/work-space.png"
+              src={`${prefix}/images/work-space.png`}
               alt="WorkSpace image"
               width={500}
               height={500}

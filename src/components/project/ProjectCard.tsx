@@ -2,6 +2,7 @@ import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 import React from 'react';
 
+
 interface ProjectCardProps {
   imgUrl: string;
   title: string;
