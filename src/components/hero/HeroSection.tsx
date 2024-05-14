@@ -8,6 +8,7 @@ import './HeroSection.css';
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const HeroSection = () => {
+
   return (
     <section className="container mx-auto px-12 py-4 mt-24">
       <div className="grid gird-cols-1 sm:grid-cols-12 ">

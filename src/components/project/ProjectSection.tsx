@@ -3,14 +3,12 @@ import React, { useRef, useState } from 'react';
 import ProjectCard from './ProjectCard';
 import ProjectTag from './ProjectTag';
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
 const projectsData = [
     {
       id: 1,
       title: "UniSchedule App",
       description: "Ứng dụng di động tra cứu thông tin sinh viên",
-      image: (`${prefix}/images/flutter-project.png`),
+      image: "/images/flutter-img.png",
       tag: ["All", "Mobile"],
       gitUrl: "/",
       previewUrl: "/",
