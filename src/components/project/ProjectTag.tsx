@@ -2,7 +2,7 @@ import React from 'react';
 
 interface ProjectTagProps {
   name: string;
-  onClick: (name: string) => {};
+  onClick: (name: string) => void;
   isSelected: boolean;
 }
 
