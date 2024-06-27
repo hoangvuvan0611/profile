@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+    height: 100vh;
+}
+
+.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.center-content .logo{
+    box-shadow: 0px 0px 15px 0.1px;
+    border-radius: 25px;
+    width: 200px;
+    height: auto;
+}
+.center-content .store{
+    width: 200px;
+    height: 60px;
+}
+
+.center-content .title{
+    padding: 10px;
+    color: green;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.center-content .uni{
+    background-color: green;
+    color: white;
+    font-weight: 900;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.center-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+}
+
+.center-content .box-store{
+    
+}
