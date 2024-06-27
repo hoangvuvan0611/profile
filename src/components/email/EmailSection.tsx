@@ -49,11 +49,8 @@ const EmailSection = () => {
         >
         <div>
             <h5 className="text-xl font-bold text-white my-2">
-<<<<<<< HEAD
             Hãy kết nối với tôi "hoangvuvan677@gmail.com" 
-=======
             Hãy kết nối với tôi qua email: hoangvuvan677@gmail.com
->>>>>>> 53941286813eb222892ec3290086eca536538735
             </h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md">
             {" "}
