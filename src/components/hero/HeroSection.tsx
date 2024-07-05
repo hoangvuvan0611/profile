@@ -35,7 +35,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-sm mb-6">
             Đây là trang web cá nhân của tôi, nơi tôi chia sẻ các thông tin cá nhân, tài liệu (bản thử nghiệm)
-            hoangvuvan0611@gmail.com
+            hoangvuvan677@gmail.com
           </p>
           <Button className="px-6 py-3 w-full sm:w-fit rounded-xl mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-red-500 hover:bg-slate-200 text-white">
             Hẹn tôi

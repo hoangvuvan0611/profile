@@ -10,8 +10,8 @@ const projectsData = [
       description: "Ứng dụng di động tra cứu thông tin sinh viên",
       image: "/images/flutter-img.png",
       tag: ["All", "Mobile"],
-      gitUrl: "/",
-      previewUrl: "/",
+      gitUrl: "https://hoangvuvan0611.github.io/profile/unischeduledownload.html",
+      previewUrl: "https://hoangvuvan0611.github.io/profile/unischeduledownload.html",
     },
     // {
     //     id: 2,
