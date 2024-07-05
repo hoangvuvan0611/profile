@@ -74,7 +74,7 @@ const AboutSection = () => {
                   HTML, CSS, JavaScript, React, Redux, NextJs, MongoDb, PostgreSQL, MySQL,
                   Flutter, SQLite, Git, Docker, và một chút về Unbutu Linux. Tôi là người nhanh tiếp thu và luôn luôn mong muốn 
                   mở rộng kiến thức của mình. Tôi có một nhóm làm việc cùng nhau, chúng tôi
-                  đang cùng nhau tạo ra nhiều ứng dụng tuyệt với và tôi rất vui về điều đó.
+                  đang cùng nhau tạo ra nhiều ứng dụng tuyệt vời và tôi rất vui về điều đó.
               </p>
               <div className="flex flex-row justify-start mt-8">
                 <TabButton
