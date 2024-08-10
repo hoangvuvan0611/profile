@@ -27,7 +27,7 @@ body {
     padding: 10px;
     color: green;
     font-weight: 900;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .center-content .uni{
@@ -46,4 +46,8 @@ body {
 
 .center-content .box-store{
     
+}
+
+.tutorial {
+    font-size: large;
 }
